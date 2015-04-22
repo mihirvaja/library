@@ -8,6 +8,8 @@ class Course {
 	String department
 	String description
 
+String toString(){title}
+
     static constraints = {
 	title()
 	code()

@@ -9,6 +9,8 @@ class Book {
 	Date returnDate
 	Student student
 
+String toString(){title}
+
     static constraints = {
 	title()
 	author()

@@ -6,7 +6,6 @@ class Library {
 	String openingHours
 
 static hasMany=[librarians: Librarian, books:Book, students:Student]
-	
 
     static constraints = {
 	location()

@@ -6,6 +6,7 @@ class Student {
 	String email
 	String studentId
 	Course course
+String toString(){name}
 
     static constraints = {
 	name()

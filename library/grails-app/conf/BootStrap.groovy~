@@ -16,9 +16,7 @@ def student1 = new Student( name: 'james',
 				course: Course.findByTitle('design')).save()
 
 def library1 = new Library( location: 'leicester',
-				openingHours: '3',
-				book: 'cook',
-				student: 'james').save()
+				openingHours: '3').save()
 
 def book1 = new Book( title: 'cook',
 				author: 'bezza',
@@ -34,6 +32,8 @@ def librarian1 = new Librarian( name: 'mihir',
 				telephone: '333').save()
 
 				library1.addToLibrarians(librarian1)
+				library1.addToBooks(book1)
+				library1.addToStudents(student1)
 
     }
     def destroy = {
