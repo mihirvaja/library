@@ -10,5 +10,11 @@ class Book {
 	String student
 
     static constraints = {
+	title()
+	author()
+	isbn()
+	dateBorrowed()
+	returnDate()
+	student()
     }
 }

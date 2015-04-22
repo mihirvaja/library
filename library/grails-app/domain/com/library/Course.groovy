@@ -9,5 +9,10 @@ class Course {
 	String description
 
     static constraints = {
+	title()
+	code()
+	tutor()
+	department()
+	description()
     }
 }

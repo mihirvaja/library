@@ -10,5 +10,10 @@ class Library {
 	
 
     static constraints = {
+	location()
+	openingHours()
+	book()
+	student()
+	librarian()
     }
 }
