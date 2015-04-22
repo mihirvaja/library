@@ -25,7 +25,7 @@ def librarian=new Librarian(name:'mihir',
 
 then: "the to String method will merge them."
 
-librarian.toString()== 'mihir,mihir@hotmail.com,333'
+librarian.toString()== 'mihir, mihir@hotmail.com, 333'
 
     }
 }

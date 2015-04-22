@@ -8,7 +8,9 @@ class Librarian {
 	String password
 	String telephone
 
-String toString() {name}
+String toString(){
+	"$name,$email,$telephone"
+}
 
     static constraints = {
 	name()
