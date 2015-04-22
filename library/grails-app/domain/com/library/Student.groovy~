@@ -8,5 +8,9 @@ class Student {
 	String course
 
     static constraints = {
+	name()
+	email()
+	studentId()
+	course()
     }
 }

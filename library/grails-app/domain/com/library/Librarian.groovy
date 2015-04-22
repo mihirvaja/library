@@ -8,6 +8,8 @@ class Librarian {
 	String password
 	String telephone
 
+String toString() {name}
+
     static constraints = {
 	name()
 	email()

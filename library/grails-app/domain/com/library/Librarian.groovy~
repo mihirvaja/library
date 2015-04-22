@@ -9,5 +9,10 @@ class Librarian {
 	String telephone
 
     static constraints = {
+	name()
+	email()
+	userName()
+	password()
+	telephone()
     }
 }
