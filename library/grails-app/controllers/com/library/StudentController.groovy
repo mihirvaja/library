@@ -4,6 +4,7 @@ package com.library
 
 import static org.springframework.http.HttpStatus.*
 import grails.transaction.Transactional
+import grails.converters.*
 
 @Transactional(readOnly = true)
 class StudentController {
@@ -15,8 +16,9 @@ class StudentController {
         respond Student.list(params), model:[studentInstanceCount: Student.count()]
     }
 
+
     def show(Student studentInstance) {
-        respond studentInstance
+	respond studentInstance
     }
 
     def create() {

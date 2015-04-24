@@ -53,6 +53,7 @@
 			<div class="pagination">
 				<g:paginate total="${studentInstanceCount ?: 0}" />
 			</div>
+
 		</div>
 	</body>
 </html>
